@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presets</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Presets</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom Scrollbar */
@@ -26,6 +25,13 @@
         ::-webkit-scrollbar-thumb:hover {
             background: rgba(225, 42, 251, 0.8); /* Darker pink on hover */
         }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap');
+        .Roboto-Condensed {
+            font-family: 'Sacramento', cursive; /* Use the imported font */
+            font-size: 24px; /* Optional: Adjust font size */
+            font-weight: 400; /* Optional: Adjust font weight */
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-fuchsia-500" background="Images/Background-2.jpg">
@@ -46,7 +52,7 @@
     <div class="m-4 backdrop-blur-3xl backdrop-opacity-75 bg-black bg-opacity-35 px-4 py-8 rounded-lg shadow-lg">
 
         <div class="text-gray-600 mb-8">
-            <p class="text-2xl font-black text-fuchsia-500 text-center">
+            <p class="text-2xl font-black text-fuchsia-500 text-center Roboto-Condensed">
                 Here's a list of presets you can choose from:
             </p>
         </div>
